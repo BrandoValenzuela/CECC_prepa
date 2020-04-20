@@ -1,0 +1,60 @@
+/* Imports */
+@import url(http://fonts.googleapis.com/css?family=Oswald:300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+.has-error small{color:red;font-weight:normal;margin-left:5px;}
+#jumbotron-index{margin-top:50px;background:#666;color:#eee;}
+
+*{box-sizing: border-box;}
+
+body{
+	background-color: #EEEEEE;
+	font-family: Tahoma;
+}
+.input-group-text{
+	padding-top: 10px;
+}
+
+.separador{
+	height: 100px;
+}
+
+.columna{
+	height: 350px;
+	/*margin-top: 100px;*/
+	box-shadow: 10px 10px 10px #B1B1B1;
+}
+.columna-izquierda{
+	background-color: #3D3896;
+	color: #FFF;
+}
+.columna-derecha{
+	background-color: #FFF;
+	border: 1px solid #3D3896;
+	color: #000;
+}
+.titulo_superior{
+	margin-top: 40px;
+}
+
+.titulo{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.escudo{
+	border-radius: 100%;
+	margin-top: 40px;
+	width: 160px;
+	height: 160px;
+}
+
+.btn-submit{
+	background: #3D3896;
+	color: #FFF;
+	/*opacity: 0.8;*/
+	border-radius: 10px;
+}
+.btn-submit:hover{
+	/*opacity: 0.5;*/
+	background: #F1C600;
+}
